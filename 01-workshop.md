@@ -1,4 +1,3 @@
-```markdown
 # Docker Getting Started – Workshop
 
 <img src="https://cdn.simpleicons.org/docker/2496ED" width="60"/>
