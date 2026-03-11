@@ -1,10 +1,3 @@
-
----
-
-# 01-workshop.md
-
-Copie tudo abaixo para **01-workshop.md**
-
 ```markdown
 # Docker Getting Started – Workshop
 
