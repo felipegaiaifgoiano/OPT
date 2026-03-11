@@ -1,73 +1,61 @@
-Docker Getting Started (PT-BR)
+# <img src="https://cdn.simpleicons.org/docker/2496ED" width="45"/> Docker Getting Started – Tutorial em Português 🇧🇷
 
-Tradução educacional baseada no tutorial oficial da Docker.
-
-Tutorial original
+Tradução e adaptação educacional do tutorial oficial da Docker:
 https://docs.docker.com/get-started/workshop/
 
-Este repositório contém uma versão traduzida e simplificada do workshop oficial
-para uso em aulas, laboratórios e estudo individual.
+Este repositório apresenta uma versão **traduzida e comentada** do workshop oficial, mantendo os mesmos comandos e exemplos.
 
-Objetivo
-Facilitar o aprendizado de Docker para estudantes de:
+---
 
-- DevOps
-- Computação em Nuvem
-- Engenharia de Software
-- Sistemas Distribuídos
-- Infraestrutura moderna
+# Conteúdo do Tutorial
 
-----------------------------------------------------
+1. [Introdução](docs/01-workshop.md)  
+2. [Executando a aplicação](docs/02-our-application.md)
+3. [Atualizando a aplicação](docs/03-update-app.md) 
+4. [Compartilhando a aplicação](docs/04-share-app.md)  
+5. [Persistindo dados](docs/05-persist-data.md) 
+6. [Bind mounts](docs/06-bind-mounts.md)
+7. [Aplicações multi-container](docs/07-multi-container.md) 
+8. [Docker Compose](docs/08-compose.md)
 
-Conteúdo do Tutorial
+---
 
-01 - Introdução ao Workshop
-02 - Executando a aplicação
-03 - Atualizando a aplicação
-04 - Compartilhando a aplicação
-05 - Persistindo dados
-06 - Bind Mounts
-07 - Aplicações Multi-Container
-08 - Docker Compose
+# Objetivo
 
-----------------------------------------------------
+Apresentar os conceitos fundamentais do Docker através da execução de uma aplicação simples.
 
-Pré-requisitos
+Durante o tutorial você aprenderá:
 
-Instalar Docker Desktop
+- Executar containers
+- Criar imagens Docker
+- Atualizar aplicações
+- Compartilhar imagens
+- Persistir dados
+- Executar aplicações multi-container
+- Utilizar Docker Compose
+
+---
+
+# Pré-requisitos
+
+1. Instalar o Docker Desktop:
 
 https://www.docker.com/products/docker-desktop/
 
-Depois verifique a instalação executando:
+2. Verificar instalação:
 
+```bash
 docker --version
+```
 
-Se o Docker estiver instalado corretamente, o comando mostrará
+Se o Docker foi instalado corretamente, o comando mostrará
 a versão instalada.
 
-----------------------------------------------------
+---
 
-Estrutura do Repositório
-
-docker-getting-started-ptbr
-
-README.md
-01-workshop.md
-02-our-application.md
-03-update-app.md
-04-share-app.md
-05-persist-data.md
-06-bind-mounts.md
-07-multi-container.md
-08-compose.md
-
-----------------------------------------------------
-
-Créditos
+# Créditos
 
 Conteúdo original: Docker Inc.
 
-Este material é apenas uma tradução educacional baseada no
-tutorial oficial disponível em:
-
+Este material é apenas uma tradução educacional baseada no tutorial oficial disponível em:
 https://docs.docker.com/get-started/workshop/
