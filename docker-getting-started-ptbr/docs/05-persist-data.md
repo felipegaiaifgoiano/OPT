@@ -1,0 +1,31 @@
+# Persistindo dados
+
+**Progresso do tutorial:** 5 / 8
+
+[🏠 Início](../README.md) | [◀ Anterior](04-share-app.md) | [Próximo ▶](06-bind-mounts.md)
+
+Containers são efêmeros.
+
+Quando um container é removido, os dados também são perdidos.
+
+Para resolver isso utilizamos **volumes Docker**.
+
+---
+
+## Criando um volume
+
+docker volume create todo-db
+
+---
+
+## Executando container com volume
+
+docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+
+---
+
+## Próximo passo
+
+Agora vamos ver outra forma de compartilhar arquivos usando bind mounts.
+
+➡ Continue para **06-bind-mounts.md**
