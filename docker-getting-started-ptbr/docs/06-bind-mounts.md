@@ -20,4 +20,4 @@ docker run -dp 3000:3000 -v $(pwd):/app getting-started
 
 Agora vamos executar múltiplos containers trabalhando juntos.
 
-➡ Continue para **07-multi-container.md**
+➡ Continue para [**07-multi-container.md**](07-multi-container.md)
