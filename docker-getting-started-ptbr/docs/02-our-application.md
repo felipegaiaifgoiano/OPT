@@ -7,21 +7,19 @@
 Agora vamos executar uma aplicação utilizando Docker.
 
 Execute o seguinte comando:
-
+```bash
 docker run -dp 3000:3000 docker/getting-started
+```
 
 ---
 
 ## Explicação do comando
 
-docker run  
-Cria e executa um container.
+ ```docker run```: cria e executa um container.
 
--d  
-Executa o container em segundo plano (detached mode).
+```-d```: executa o container em segundo plano (detached mode).
 
--p 3000:3000  
-Mapeia a porta 3000 do container para a porta 3000 da máquina local.
+```-p 3000:3000```: mapeia a porta 3000 do container para a porta 3000 da máquina local.
 
 Se a imagem **docker/getting-started** não existir localmente, o Docker irá baixá-la automaticamente.
 
@@ -40,8 +38,9 @@ Você deverá ver a aplicação funcionando.
 ## Listando containers
 
 Para verificar containers em execução:
-
+```bash
 docker ps
+```
 
 ---
 
