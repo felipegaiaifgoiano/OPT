@@ -28,4 +28,4 @@ docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
 
 Agora vamos ver outra forma de compartilhar arquivos usando bind mounts.
 
-➡ Continue para **06-bind-mounts.md**
+➡ Continue para [**06-bind-mounts.md**](06-bind-mounts.md)
