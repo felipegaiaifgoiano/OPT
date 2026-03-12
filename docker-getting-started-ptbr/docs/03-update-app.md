@@ -36,4 +36,4 @@ docker run -dp 3000:3000 getting-started
 
 Agora vamos compartilhar a imagem utilizando o Docker Hub.
 
-➡ Continue para **04-share-app.md**
+➡ Continue para [**04-share-app.md**](04-share-app.md)
