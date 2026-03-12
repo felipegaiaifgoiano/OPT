@@ -57,4 +57,4 @@ Nos próximos passos iremos **trabalhar diretamente com o código da aplicação
 
 Agora vamos baixar o código da aplicação e construir nossa própria imagem.
 
-➡ Continue para **03-update-app.md**
+➡ Continue para [**03-update-app.md**](03-update-app.md)
