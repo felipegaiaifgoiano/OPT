@@ -32,4 +32,4 @@ docker push SEU_USUARIO/getting-started
 
 Agora vamos aprender como persistir dados em containers.
 
-➡ Continue para **05-persist-data.md**
+➡ Continue para [**05-persist-data.md**](05-persist-data.md)
