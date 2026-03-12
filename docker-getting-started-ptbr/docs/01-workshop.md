@@ -6,9 +6,9 @@
 
 Este tutorial é baseado no workshop oficial da Docker.
 
-A proposta é aprender Docker de forma prática, executando uma aplicação simples dentro de um container.
+A proposta é aprender passo-a-passo como utilizar o Docker de forma prática em aproximadamente 45 minutos.
 
-Ao final do tutorial você terá aprendido como:
+Este tutorial mostra como:
 
 - Executar containers
 - Construir imagens
