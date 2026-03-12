@@ -6,13 +6,15 @@
 
 Agora vamos trabalhar com o código da aplicação.
 
-Clone o repositório da aplicação:
-
+1. Clone o repositório da aplicação:
+```bash
 git clone https://github.com/docker/getting-started-app.git
+```
 
-Entre no diretório:
-
+2. Entre no diretório:
+```bash
 cd getting-started-app
+```
 
 ---
 
@@ -20,7 +22,9 @@ cd getting-started-app
 
 Execute:
 
+```bash
 docker build -t getting-started .
+```
 
 Esse comando constrói uma imagem Docker utilizando o **Dockerfile** do projeto.
 
@@ -28,7 +32,9 @@ Esse comando constrói uma imagem Docker utilizando o **Dockerfile** do projeto.
 
 ## Executando a nova imagem
 
+```bash
 docker run -dp 3000:3000 getting-started
+```
 
 ---
 
