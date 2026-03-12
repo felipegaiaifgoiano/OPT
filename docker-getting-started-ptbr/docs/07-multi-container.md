@@ -21,4 +21,4 @@ Esses containers podem se comunicar através de redes Docker.
 
 Agora vamos utilizar Docker Compose para gerenciar múltiplos containers.
 
-➡ Continue para **08-compose.md**
+➡ Continue para [**08-compose.md**](08-compose.md)
