@@ -14,14 +14,16 @@ Para resolver isso utilizamos **volumes Docker**.
 
 ## Criando um volume
 
+```bash
 docker volume create todo-db
-
+```
 ---
 
 ## Executando container com volume
 
+```bash
 docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
-
+```
 ---
 
 ## Próximo passo
