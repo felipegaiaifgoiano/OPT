@@ -60,4 +60,4 @@ Neste workshop você seguirá exatamente esse fluxo.
 
 Agora vamos executar nossa primeira aplicação utilizando Docker.
 
-➡ Continue para **02-our-application.md**
+➡ Continue para [**02-our-application.md**](02-our-application.md)
