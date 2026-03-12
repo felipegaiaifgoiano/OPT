@@ -3,7 +3,7 @@
 Tradução e adaptação educacional do tutorial oficial da Docker:
 https://docs.docker.com/get-started/workshop/
 
-Este repositório apresenta uma versão **traduzida e comentada** do workshop oficial, mantendo os mesmos comandos e exemplos.
+Este repositório apresenta uma versão **traduzida e simplificada** do workshop oficial, mantendo os mesmos comandos e exemplos.
 
 ---
 
