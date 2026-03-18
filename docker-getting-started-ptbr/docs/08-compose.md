@@ -42,3 +42,11 @@ Neste tutorial você aprendeu:
 - persistir dados
 - executar aplicações com múltiplos containers
 - utilizar Docker Compose
+
+---
+
+## Próximo passo
+
+Agora que você já sabe trabalhar com múltiplos containers, é possível migrar sua aplicação para Kubernetes.
+
+➡ Continue para [**Kompose + Kubernetes Local**](../kompose-getting-started-ptbr/README.md)
