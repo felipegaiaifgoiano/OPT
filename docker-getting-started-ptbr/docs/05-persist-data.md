@@ -22,8 +22,13 @@ docker volume create todo-db
 ## Executando container com volume
 
 ```bash
-docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+docker run -dp 3001:3000 -v todo-db:/etc/todos getting-started
 ```
+
+Observações: 
+- Geralmente utilizamos volume em um container de banco de dados.
+- Este é apenas um exemplo ilustrativo.
+
 ---
 
 ## Próximo passo
