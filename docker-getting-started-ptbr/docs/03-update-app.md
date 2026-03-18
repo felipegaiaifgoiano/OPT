@@ -52,6 +52,8 @@ Esse comando constrói uma imagem Docker utilizando o **Dockerfile** do projeto.
 docker run -dp 3000:3000 getting-started
 ```
 
+Agora nossa aplicação está "conteinerizada"!
+
 ---
 
 ## Próximo passo
