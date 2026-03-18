@@ -40,10 +40,10 @@ choco install kubernetes-kompose
 
 ## Observações
 
-Para verificar se a instalação está correta, utilize:
+- Para verificar se a instalação está correta, utilize:
 
 ```bash
 kompose version
 ```
 
-Se aparecer a versão, está tudo OK.
+- Se aparecer a versão, está tudo OK.
