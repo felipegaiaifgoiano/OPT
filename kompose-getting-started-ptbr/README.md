@@ -6,9 +6,9 @@ Este tutorial é uma continuação do módulo de Docker e mostra como migrar apl
 
 ## Conteúdo
 
-➡️ [01 - Introdução](01-introducao.md)  
-➡️ [02 - Instalação](02-instalacao.md)  
-➡️ [03 - Revisar Projeto](03-revisar-projeto.md)  
-➡️ [04 - Conversão](04-conversao.md)  
-➡️ [05 - Kubernetes Local](05-kubernetes-local.md)  
-➡️ [06 - Deploy](06-deploy.md)
+1. [Introdução](01-introducao.md)  
+2. [Instalação](02-instalacao.md)  
+3. [Revisar Projeto](03-revisar-projeto.md)  
+4. [Conversão](04-conversao.md)  
+5. [Kubernetes Local](05-kubernetes-local.md)  
+6. [Deploy](06-deploy.md)
