@@ -43,7 +43,7 @@ volumes:
 
 ---
 
-# Observações
+## Observações
 
 - Deve haver pelo menos **dois serviços**.
 
