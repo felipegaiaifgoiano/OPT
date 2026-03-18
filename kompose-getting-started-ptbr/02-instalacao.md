@@ -35,3 +35,15 @@ sudo mv kompose /usr/local/bin
 ```bash
 choco install kubernetes-kompose
 ```
+
+---
+
+## Observações
+
+Para verificar se a instalação está correta, utilize:
+
+```bash
+kompose version
+```
+
+Se aparecer a versão, está tudo OK.
