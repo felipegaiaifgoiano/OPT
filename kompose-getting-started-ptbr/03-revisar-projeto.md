@@ -24,19 +24,31 @@ services:
     build: .
     ports:
       - "3000:3000"
+    depends_on:
+      - db
 
   db:
-    image: mysql
+    image: mysql:8
     environment:
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: appdb
+    volumes:
+      - db-data:/var/lib/mysql
+
+---
+
+volumes:
+  db-data:
 ```
 
 ---
 
 # Observações
 
-- Deve haver pelo menos dois serviços.
+- Deve haver pelo menos **dois serviços**.
 
-- Banco de dados é altamente recomendado.
+- Uso de banco de dados é altamente recomendado.
 
-- Uso de volumes melhora o resultado da conversão.
+- Uso de volumes garante persistência de dados.
+
+- Uso de ```depends_on``` ajuda organizar a ordem de inicialização.
