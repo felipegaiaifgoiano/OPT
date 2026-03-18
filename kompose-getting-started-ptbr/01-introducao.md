@@ -26,6 +26,8 @@ Fluxo de migração:
 Docker Compose → Kompose → Kubernetes
 ```
 
+---
+
 ## Observações
 
 Kompose não substitui Kubernetes, apenas acelera a migração inicial.
