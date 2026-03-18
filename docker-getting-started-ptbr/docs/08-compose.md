@@ -22,7 +22,9 @@ services:
 
 ## Executando a aplicação
 
+```bash
 docker compose up
+```
 
 Isso iniciará todos os serviços definidos no arquivo.
 
