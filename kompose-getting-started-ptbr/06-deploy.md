@@ -25,13 +25,12 @@ kubectl get services
 
 ## Observações
 
-- Pods devem aparecer como Running
+- Pods devem aparecer como **running**.
 
-- Services devem estar disponíveis
+- Services devem estar disponíveis.
 
-- Se algo der errado, utilize os comandos:
-
-```bash
-kubectl describe pod <nome>
-kubectl logs <nome>
-```
+- Se algo estiver errado, utilize os comandos:
+  ```bash
+  kubectl describe pod <nome>
+  kubectl logs <nome>
+  ```
