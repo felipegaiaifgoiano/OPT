@@ -4,7 +4,7 @@
 
 [🏠 Início](../README.md) | [◀ Anterior](04-share-app.md) | [Próximo ▶](06-bind-mounts.md)
 
-Containers são efêmeros.
+Containers não foram feitos para armazenar dados permanentemente.
 
 Quando um container é removido, os dados também são perdidos.
 

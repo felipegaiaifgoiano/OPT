@@ -6,10 +6,11 @@
 
 Docker Compose permite definir múltiplos containers em um único arquivo.
 
-Exemplo:
+## Exemplo
 
-docker-compose.yml
+Arquivo `docker-compose.yml`:
 
+```yaml
 version: "3.8"
 
 services:
@@ -17,12 +18,15 @@ services:
     build: .
     ports:
       - "3000:3000"
+```
 
 ---
 
 ## Executando a aplicação
 
+```bash
 docker compose up
+```
 
 Isso iniciará todos os serviços definidos no arquivo.
 
