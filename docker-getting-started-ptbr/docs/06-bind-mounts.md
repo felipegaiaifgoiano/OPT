@@ -13,7 +13,7 @@ Isso é muito útil durante o desenvolvimento.
 ## Executando com bind mount
 
 ```bash
-docker run -dp 3000:3000 -v $(pwd):/app getting-started
+docker run -dp 3002:3000 -v $(pwd):/app getting-started
 ```
 ---
 
