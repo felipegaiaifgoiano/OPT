@@ -10,7 +10,7 @@
 
 O Kompose é uma ferramenta de linha de comando.
 
-Ele deve ser instalado no seu sistema para converter arquivos Docker Compose.
+Ele deve ser instalado no seu sistema operacional para ser utilizado.
 
 ---
 
