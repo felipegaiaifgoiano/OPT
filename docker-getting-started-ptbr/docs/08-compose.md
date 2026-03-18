@@ -11,8 +11,6 @@ Docker Compose permite definir múltiplos containers em um único arquivo.
 Arquivo `docker-compose.yml`:
 
 ```yaml
-version: "3.8"
-
 services:
   app:
     image: node:18
