@@ -8,7 +8,7 @@ Agora vamos executar uma aplicação utilizando Docker.
 
 Execute o seguinte comando:
 ```bash
-docker run -dp 3000:3000 docker/getting-started
+docker run -dp 80:80 docker/getting-started
 ```
 
 ---
@@ -19,7 +19,7 @@ docker run -dp 3000:3000 docker/getting-started
 
 ```-d```: executa o container em segundo plano (detached mode).
 
-```-p 3000:3000```: mapeia a porta 3000 do container para a porta 3000 da máquina local.
+```-p 80:80```: mapeia a porta 80 do container para a porta 80 da máquina local.
 
 Se a imagem **docker/getting-started** não existir localmente, o Docker irá baixá-la automaticamente.
 
@@ -29,7 +29,7 @@ Se a imagem **docker/getting-started** não existir localmente, o Docker irá ba
 
 Abra o navegador e acesse:
 
-http://localhost:3000
+http://localhost:80
 
 Você deverá ver a aplicação funcionando.
 
