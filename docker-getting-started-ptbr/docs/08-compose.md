@@ -15,9 +15,20 @@ version: "3.8"
 
 services:
   app:
-    build: .
+    image: node:18
+    container_name: getting-started
+    working_dir: /app
+    volumes:
+      # Bind mount (código)
+      - .:/app
+      # Volume para persistência do SQLite
+      - todo-db:/app/data
+    command: sh -c "npm install && node src/index.js"
     ports:
       - "3000:3000"
+
+volumes:
+  todo-db:
 ```
 
 ---
