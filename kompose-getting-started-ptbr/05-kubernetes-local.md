@@ -26,4 +26,4 @@ O Docker Desktop oferece um cluster local simples.
 ## Observações
 
 - Pode levar alguns minutos para iniciar.
-- O status deve ficar como **Running**.
+- Ao final, o status deve ficar verde com a mensagem **Kubernetes running**.
