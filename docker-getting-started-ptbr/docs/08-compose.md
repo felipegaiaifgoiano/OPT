@@ -49,4 +49,4 @@ Neste tutorial você aprendeu:
 
 Agora que você já sabe trabalhar com múltiplos containers, é possível migrar sua aplicação para Kubernetes.
 
-➡ Continue para [**Kompose + Kubernetes Local**](../kompose-getting-started-ptbr/README.md)
+➡ Continue para [**Kompose + Kubernetes Local**](../../kompose-getting-started-ptbr/README.md)
