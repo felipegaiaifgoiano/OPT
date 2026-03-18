@@ -16,6 +16,20 @@ git clone https://github.com/docker/getting-started-app.git
 cd getting-started-app
 ```
 
+3. Crie o arquivo Dockerfile:
+```bash
+nano Dockerfile
+```
+
+4. Salve o conteúdo:
+```yaml
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+```
+
 ---
 
 ## Construindo a imagem
