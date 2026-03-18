@@ -35,8 +35,6 @@ services:
     volumes:
       - db-data:/var/lib/mysql
 
----
-
 volumes:
   db-data:
 ```
