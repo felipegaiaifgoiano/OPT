@@ -8,11 +8,11 @@
 
 ## Conceito
 
-Até agora utilizamos o Docker Compose para executar múltiplos containers.
+Até agora utilizamos o **Docker Compose** para executar múltiplos containers. 
 
-O problema é que o Docker Compose **não é utilizado em ambientes de produção modernos**.
+O problema é que ele não é utilizado em ambientes de produção modernos.
 
-O **Kubernetes** é a principal plataforma de **orquestração** utilizada atualmente.
+O **Kubernetes** é a principal **plataforma de orquestração** utilizada atualmente.
 
 O **Kompose** surge como uma ferramenta de migração, permitindo converter aplicações já existentes em Docker Compose para Kubernetes.
 
