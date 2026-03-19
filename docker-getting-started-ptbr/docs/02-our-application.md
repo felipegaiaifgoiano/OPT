@@ -57,7 +57,7 @@ docker rm <container_name_or_id>
 
 Neste passo utilizamos uma **imagem pronta disponibilizada pela Docker** que cria um conteiner baseado em Nginx.
 
-Nos próximos passos iremos **trabalhar diretamente com o código da aplicação**, construindo nossa própria imagem Docker baseado em uma versão do código em Node.
+Nos próximos passos iremos **trabalhar diretamente com o código de aplicação** desenvolvida em Node, construindo assim nossa própria imagem Docker.
 
 ---
 
