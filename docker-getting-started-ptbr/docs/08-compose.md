@@ -4,29 +4,44 @@
 
 [🏠 Início](../README.md) | [◀ Anterior](07-multi-container.md)
 
-Docker Compose permite definir múltiplos containers em um único arquivo.
+Docker Compose permite definir **múltiplos containers** em um único arquivo.
 
 ## Exemplo
 
-Arquivo `docker-compose.yml`:
+Neste exemplo, temos:
+- um contêiner para a aplicação TODO;
+- outro que armazena os dados em um BD.
+
+Crie o arquivo `docker-compose.yml`:
 
 ```yaml
+
 services:
   app:
-    image: node:18
-    container_name: getting-started
+    image: node:24-alpine
+    container_name: getting-started-compose
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - 127.0.0.1:3000:3000
     working_dir: /app
     volumes:
-      # Bind mount (código)
-      - .:/app
-      # Volume para persistência do SQLite
-      - todo-db:/app/data
-    command: sh -c "npm install && node src/index.js"
-    ports:
-      - "3000:3000"
+      - ./:/app
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: secret
+      MYSQL_DB: todos
+
+  mysql:
+    image: mysql:8.0
+    volumes:
+      - todo-mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: todos
 
 volumes:
-  todo-db:
+  todo-mysql-data:
 ```
 
 ---
