@@ -48,6 +48,7 @@ docker ps
 
 Para remover o conteiner, use:
 ```bash
+docker stop <container_name_or_id>
 docker rm <container_name_or_id>
 ```
 
