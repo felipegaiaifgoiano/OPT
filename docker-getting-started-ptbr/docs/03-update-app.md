@@ -23,13 +23,12 @@ nano Dockerfile
 
 4. Salve o conteúdo:
 ```yaml
-FROM node:18-alpine
+FROM node:24-alpine
 WORKDIR /app
-COPY package.json yarn.lock* ./
-RUN yarn install --production && yarn add uuid@8
 COPY . .
-EXPOSE 3000
+RUN npm install --omit=dev
 CMD ["node", "src/index.js"]
+EXPOSE 3000
 ```
 
 ---
