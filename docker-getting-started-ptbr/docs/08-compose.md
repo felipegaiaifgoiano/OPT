@@ -4,7 +4,7 @@
 
 [🏠 Início](../README.md) | [◀ Anterior](07-multi-container.md)
 
-Docker Compose permite definir **múltiplos containers** em um único arquivo.
+Docker Compose permite definir **múltiplos contêiners** em um único arquivo.
 
 ## Exemplo
 
