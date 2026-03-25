@@ -1,5 +1,9 @@
 # Elasticidade no Kubernetes – Tutorial em Português 🇧🇷
 
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Autoscaling-blue)
+![Status](https://img.shields.io/badge/status-educational-brightgreen)
+![License](https://img.shields.io/badge/license-educational-lightgrey)
+
 Este tutorial mostra de forma simplificada como utilizar **elasticidade no Kubernetes**.
 
 ## Conteúdo
