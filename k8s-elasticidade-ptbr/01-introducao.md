@@ -8,15 +8,23 @@ Elasticidade é a capacidade de um sistema ajustar automaticamente seus recursos
 
 ## Tipos de Elasticidade
 
-### 1. Horizontal (HPA)
-- Escala o número de pods
-- Baseado em CPU, memória ou métricas customizadas
+### 1. Horizontal
+- Escala o número de pods.
 
-### 2. Vertical (VPA)
-- Ajusta CPU e memória do pod
+### 2. Vertical
+- Escala os recursos do pod.
 
-### 3. Cluster Autoscaler
-- Ajusta o número de nós do cluster
+### 3. Cluster
+- Escala o número de nós do cluster.
+
+
+## 3. No Kubernetes
+
+| Tipo | Nome                            | Recurso                  |
+|------|---------------------------------|--------------------------|
+| 1    | Horizontal Pod Autoscaler (HPA) | CPU / RAM / métricas     |
+| 2    | Vertical Pod Autoscaler (VPA)   | CPU / RAM                |
+| 3    | Cluster Autoscaler              | Número de nós            |
 
 ---
 
