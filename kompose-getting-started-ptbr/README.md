@@ -1,4 +1,4 @@
-# Kompose Getting Started (PT-BR)
+# Kompose – Tutorial em Português 🇧🇷
 
 Este tutorial é uma continuação do módulo de Docker e mostra como migrar aplicações para Kubernetes utilizando o Kompose.
 
