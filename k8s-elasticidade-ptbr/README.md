@@ -4,9 +4,9 @@ Este repositório contém um guia completo sobre **elasticidade no Kubernetes**,
 
 ## Conteúdo
 
-1. [Conceitos de Elasticidade](01-conceitos-elasticidade-kubernetes.md)
+1. [Conceitos de Elasticidade](01-introducaco.md)
 2. [Configuração do HPA](02-configurando-hpa.md)
-3. [Testes de Elasticidade](03-testando-elasticidade.md)
+3. [Testes de Elasticidade](03-testando.md)
 
 ---
 
