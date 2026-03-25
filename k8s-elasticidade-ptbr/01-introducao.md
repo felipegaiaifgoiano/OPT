@@ -2,23 +2,21 @@
 
 ## O que é Elasticidade?
 
-Elasticidade é a capacidade de um sistema ajustar automaticamente seus recursos conforme a demanda, aumentando ou reduzindo instâncias (pods).
+Elasticidade é a capacidade de um sistema de ajustar dinamicamente seus recursos de acordo com a demanda, ou seja, aumentando/reduzindo automaticamente a quantidade de instâncias (réplicas) ou de recursos computacionais.
 
 ---
 
 ## Tipos de Elasticidade
 
-### 1. Horizontal
-- Escala o número de pods.
+O Kubernetes oferece mecanismos para escalar automaticamente:
 
-### 2. Vertical
-- Escala os recursos do pod.
+1. Horizontalmente: escala o número de pods.
 
-### 3. Cluster
-- Escala o número de nós do cluster.
+2. Verticalmente: escala os recursos do pod.
 
+3. A nível de cluster: escala o número de nós do cluster.
 
-### No Kubernetes
+### Como o Kubernetes escala?
 
 | Tipo | Nome                            | Recurso                  |
 |------|---------------------------------|--------------------------|
@@ -30,18 +28,18 @@ Elasticidade é a capacidade de um sistema ajustar automaticamente seus recursos
 
 ## Vantagens
 
-- Melhor uso de recursos
-- Alta disponibilidade
-- Redução de custos
-- Escalabilidade automática
+- Maior eficiência no uso de recursos: usa apenas o necessário;
+- Alta disponibilidade: lida com picos de acesso (requisições) automaticamente;
+- Redução de custos: em ambientes em nuvem, evita pagar por recursos ociosos;
+- Escalabilidade automatizada: reduz necessidade de intervenção manual.
 
 ---
 
 ## Requisitos para Elasticidade
 
-- Metrics Server instalado
-- Requests e Limits definidos
-- Aplicação stateless (preferencialmente)
+- Metrics Server instalado.
+- Requests e Limits definidos.
+- Aplicação stateless (preferencialmente).
 
 ---
 
