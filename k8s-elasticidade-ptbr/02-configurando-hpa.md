@@ -2,8 +2,8 @@
 
 ## Pré-requisitos
 
-- Kubernetes funcionando
-- kubectl configurado
+- Kubernetes funcionando;
+- kubectl configurado.
 
 ---
 
@@ -22,9 +22,9 @@ kubectl top pods
 
 ---
 
-## Configurar Deployment
+## Configurando Elasticidade (Deployment)
 
-Adicione no container:
+1. Adicione resources ao container da aplicação:
 
 ```yaml
 resources:
@@ -34,11 +34,7 @@ resources:
     cpu: "500m"
 ```
 
----
-
-## Criar HPA
-
-Arquivo `hpa.yaml`:
+2. Crie um arquivo `hpa.yaml`:
 
 ```yaml
 apiVersion: autoscaling/v2
@@ -61,17 +57,13 @@ spec:
         averageUtilization: 50
 ```
 
----
-
-## Aplicar
+3. Aplique o HPA:
 
 ```bash
 kubectl apply -f hpa.yaml
 ```
 
----
-
-## Verificar
+4. Verifique se funcionou:
 
 ```bash
 kubectl get hpa
