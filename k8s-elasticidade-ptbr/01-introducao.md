@@ -18,7 +18,7 @@ Elasticidade é a capacidade de um sistema ajustar automaticamente seus recursos
 - Escala o número de nós do cluster.
 
 
-## 3. No Kubernetes
+### No Kubernetes
 
 | Tipo | Nome                            | Recurso                  |
 |------|---------------------------------|--------------------------|
