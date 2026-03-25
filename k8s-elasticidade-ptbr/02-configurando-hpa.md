@@ -67,4 +67,5 @@ kubectl apply -f hpa.yaml
 
 ```bash
 kubectl get hpa
+kubectl top pods
 ```
