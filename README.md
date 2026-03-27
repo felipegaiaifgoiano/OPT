@@ -6,7 +6,7 @@ Repositório destinado à disciplina Optativa I - Computação em Nuvem.
 1. [🐳 Docker](docker-getting-started-ptbr/README.md)
 2. [🔄 Kompose](kompose-ptbr/README.md)
 3. [☸️ Kubernetes](k8s-elasticidade-ptbr/README.md)
-4. [☁ AWS](eks-elasticidade/README.md)
+4. [☁ AWS](eks-elasticidade-ptbr/README.md)
 
 ---
 
