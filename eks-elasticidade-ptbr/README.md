@@ -19,7 +19,7 @@ Ao final deste tutorial a aplicação estará acessível através do IP público
 
 ## Sumário
 
-* [Arquitetura](#arquitetura)
+* [Pipeline de Deploy](#pipeline-de-deploy)
 * [Pré-requisitos](#pré-requisitos)
 * [1. Criando a instância EC2](#1-criando-a-instância-ec2)
 * [2. Conectando à instância](#2-conectando-à-instância)
@@ -37,7 +37,7 @@ Ao final deste tutorial a aplicação estará acessível através do IP público
 
 ---
 
-## Arquitetura
+## Pipeline de Deploy
 
 ```mermaid
 flowchart TD
