@@ -335,25 +335,11 @@ kubectl get nodes
 
 ## Próximos Passos
 
-Após concluir este laboratório, recomenda-se prosseguir para:
+Após concluir este laboratório, será possível testar sua aplicação na nuvem.
+Para isso, siga os seguintes passos:
 
-1. Configuração do Metrics Server;
-2. Configuração do Horizontal Pod Autoscaler (HPA);
-3. Geração de carga utilizando a aplicação da Torre de Hanoi;
-4. Monitoramento de consumo de CPU;
-5. Observação do escalonamento automático dos pods.
-
----
-
-## Conclusão
-
-Neste tutorial foram realizados os seguintes passos:
-
-* Criação de uma instância EC2 na AWS Academy;
-* Instalação do Kubernetes utilizando K3s;
-* Conversão do Docker Compose para Kubernetes com Kompose;
-* Deploy da aplicação na nuvem;
-* Publicação utilizando NodePort;
-* Escalabilidade manual através do Kubernetes.
-
-Esse ambiente poderá ser utilizado posteriormente para experimentos envolvendo elasticidade horizontal (HPA), métricas de CPU e balanceamento de carga.
+1. Configurar o Metrics Server;
+2. Configurar o Horizontal Pod Autoscaler (HPA);
+3. Gerar carga para sua aplicação suficiente para testar a elasticidade;
+4. Monitorar o consumo de CPU/Memória;
+5. Observar do escalonamento automático dos pods (elasticidade).
