@@ -12,7 +12,8 @@ Como o ambiente AWS Academy possui restrições para utilização do Amazon EKS,
 
 Ao final deste tutorial a aplicação estará acessível através do IP público da instância.
 
-> **Observação:** Em ambientes de produção normalmente utilizaríamos o Amazon EKS (Elastic Kubernetes Service). Neste laboratório foi utilizada uma instância EC2 com K3s devido às limitações de serviços disponíveis na AWS Academy.
+
+> **Observação:** Em ambientes de produção normalmente utilizaríamos o Amazon EKS (Elastic Kubernetes Service).
 
 ---
 
@@ -77,11 +78,11 @@ Utilize as seguintes configurações:
 | Configuração        | Valor                   |
 | ------------------- | ----------------------- |
 | Nome                | k8s-lab                 |
-| Sistema Operacional | Ubuntu Server 24.04 LTS |
+| Sistema Operacional | Ubuntu Server 26.04 LTS |
 | Tipo                | t2.medium               |
 | Armazenamento       | 20 GB                   |
 
-Crie ou selecione uma chave SSH.
+Sempre crie uma nova chave SSH, pois a disponibilizada pela AWS Academy não está disponível para download.
 
 ### Configuração do Security Group
 
@@ -93,6 +94,7 @@ Libere as seguintes portas:
 | 8080        | TCP       | Aplicação  |
 | 30000-32767 | TCP       | NodePort   |
 
+Utilizando as configurações padrão da AWS Academy, as portas geralmente já estão abertas.
 Após a criação da instância, anote o endereço IP público.
 
 ---
